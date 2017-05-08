@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src='./maketable.js'></script>
+  </head>
+  <body>
+  	<h1>Reserve a Time Slot</h1>
+    <form action="./reserve.php" method="post">  
+      <input type="radio" name="day"> Monday
+      <input type="radio" name="day"> Tuesday
+      <input type="radio" name="day"> Wednesday
+      <input type="radio" name="day"> Thursday
+      <input type="radio" name="day"> Friday
+      <p></p>
+      <input type="radio" name="time"> 9:00
+      <input type="radio" name="time"> 10:00
+      <input type="radio" name="time"> 11:00
+      <input type="radio" name="time"> 12:00
+      <input type="radio" name="time"> 13:00
+      <input type="radio" name="time"> 14:00
+      <input type="radio" name="time"> 15:00
+      <p></p>
+      <input type="submit" name="submit" value="Submit">  
+    </form>
+
+  </body>
+</html>
